@@ -259,7 +259,7 @@
                 n.width = e * i, n.height = t * i, n.style.width = e + "px", n.style.height = t + "px", pe.aspect = e / t, e < t ? pe.zoom = .75 : pe.zoom = 1, l.tramWire.linewidth = 2 * me(), pe.updateProjectionMatrix()
             },
             Te = function() {
-                return L.text("Sounds (finally)"), new Promise(function(e) {
+                return L.text("Звуки (последняя часть)"), new Promise(function(e) {
                     var t = 0,
                         i = 0,
                         n = 0;
@@ -303,7 +303,7 @@
                 return void 0 !== t ? t : void console.error("Could not find material with name " + e)
             },
             Se = function() {
-                return d.default.ImageUtils.crossOrigin = "", L.text("Illustrations"), new Promise(function(e) {
+                return d.default.ImageUtils.crossOrigin = "", L.text("Иллюстрации"), new Promise(function(e) {
                     var t = 0,
                         i = n.assets.textures.length;
                     n.assets.textures.forEach(function(n) {
@@ -455,7 +455,7 @@
                 $.isDown = !1, $.startPosition.distanceTo($.currentPosition) < .1 && Re()
             },
             ke = function() {
-                ee.remove(), L.text("world"), (0, h.default)("#loader-content").html("~ Насладитесь коротким путешествием ~"), setTimeout(function() {
+                ee.remove(), L.text("мир"), (0, h.default)("#loader-content").html("~ Насладитесь коротким путешествием ~"), setTimeout(function() {
                     (0, h.default)("#actions").addClass("active")
                 }, 3e3), le = new d.default.Clock(!0), le.start(), ue = new d.default.Scene, xe.scene = ue, Le("scene", ue), ue.fog = new d.default.Fog(16777215, 10, 11.1), he = new d.default.WebGLRenderer({
                     antialias: !0
@@ -558,7 +558,7 @@
             };
         (0, h.default)(document).ready(function() {
             if (o.default.webgl && o.default.canvas) {
-                ee = (0, h.default)("#loading-percent"), L = (0, h.default)("#loading-message"), L.text("world");
+                ee = (0, h.default)("#loading-percent"), L = (0, h.default)("#loading-message"), L.text("мир");
                 var e = (0, h.default)("#eco-button"),
                     t = (0, h.default)("#default-button");
                 (0, h.default)("#credits-button").on("click", function() {
