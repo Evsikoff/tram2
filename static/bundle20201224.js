@@ -577,7 +577,7 @@
                 }), (0, h.default)("#credits").on("click", function(e) {
                     "credits" === e.target.id && (e.preventDefault(), (0, h.default)("#credits").fadeToggle(250))
                 }), Se().then(Te).then(Ce).then(ke)
-            } else(0, h.default)(".label").text("My apologies, your device doesn't support WebGL, which is what Short Trip relies on! Try updating it, or try another one.")
+            } else(0, h.default)(".label").text("My apologies, your device doesn't support WebGL, which is what Поэма о трамвае relies on! Try updating it, or try another one.")
         })
     }()
 }, function(e, t, i) {
