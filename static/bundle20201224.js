@@ -118,7 +118,7 @@
             v = [],
             b = void 0,
             T = void 0;
-        b = "static/img/", T = "static/sounds/";
+        b = "static/img", T = "static/sounds";
         var S = void 0,
             U = void 0,
             A = void 0,
@@ -276,7 +276,7 @@
                         var t = e.loadAsync || !1,
                             i = [];
                         e.urls.forEach(function(e) {
-                            i.push(T + e)
+                            i.push(T + "/" + e)
                         });
                         var n = {
                             src: i,
@@ -323,7 +323,7 @@
                                 depthTest: !1
                             });
                             c.map = a, c.name = a.name, c.uniforms.map.value = a, r.materials[s] = c, t++, ee.text("%" + Math.ceil(t / i * 100)), t === i && (ee.text(""), e())
-                        }, o.crossOrigin = "", o.src = b + n.name + ".png"
+                        }, o.crossOrigin = "", o.src = b + "/" + n.name + ".png"
                     })
                 })
             },
